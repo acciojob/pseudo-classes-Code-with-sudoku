@@ -1,12 +1,27 @@
 /*  your css code here. If applicable */
-div::before{
-	content:"Before Element";
-	color:red;
-	font-size:20px;
+p:first-child{
+	background:rgb(0,0,0);
+	color:rgb(255,255,255);
 }
- 
-div::after{
-	content:"After Element";
-	color:red;
-	font-size:20px;
+p:last-child{
+	color:rgb(255,0,0);
+}
+html{
+	background-color:rgb(135,206,235);
+}
+li{
+	width:50%;
+	padding:10px;
+	background-color:gray;
+}
+li:first-child{
+	background-color:white;
+	font-size:22px;
+}
+li:last-child{
+	background-color:white;
+	font-size:22px;
+}
+li:nth-child(3){
+	background-color:pink;
 }
